@@ -15,16 +15,16 @@ function sum(array $array): int
         return 0;
     }
 
-    // Recursive case
     if (count($array) === 1) {
         return $array[0];
     }
 
+    // Recursive case
     $value = array_pop($array);
     return $value + sum($array);
 }
 
-final class RecursiveSumFunctionTest extends TestCase
+final class RecursiveSumTest extends TestCase
 {
     public function testEmptyArrayReturnsZero(): void
     {

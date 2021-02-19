@@ -23,7 +23,7 @@ function countElements(array $items, int $count = 0): int
     return countElements($items, $count);
 }
 
-final class RecursiveItemListCountFunctionTest extends TestCase
+final class RecursiveItemListCountTest extends TestCase
 {
     public function testEmptyListReturnsZero(): void
     {
