@@ -9,8 +9,8 @@ Code is written in PHP following the [TDD](https://en.wikipedia.org/wiki/Test-dr
 ##### Run all the tests
 ``` bash
 # Run all the tests
-bash ./vendor/bin/phpunit --testdox src
+./vendor/bin/phpunit --testdox src
 
 # Run a particular test
-bash ./vendor/bin/phpunit --testdox src/MyTestCase
+./vendor/bin/phpunit --testdox src/MyTestCase
 ```
